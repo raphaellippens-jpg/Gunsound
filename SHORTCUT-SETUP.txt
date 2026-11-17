@@ -1,0 +1,27 @@
+WEAPON FLASH SHORTCUT — iPad
+
+Create ONE shortcut named exactly:
+Weapon Flash
+
+Actions:
+1. Set Flashlight → On
+2. Wait → 1 second (the shortest duration available in your Shortcuts app)
+3. Set Flashlight → Off
+
+The website calls this same shortcut from:
+- Pistol
+- Shotgun
+
+The website does NOT call the shortcut from:
+- Rifle
+- SMG
+- Machine gun
+- Minigun
+
+The website launches it with:
+shortcuts://run-shortcut?name=Weapon%20Flash
+
+%20 represents the space in "Weapon Flash" (URL encoding).
+
+iPadOS may switch from Safari to Shortcuts when the LED flash runs.
+The web page cannot guarantee precise LED timing.
